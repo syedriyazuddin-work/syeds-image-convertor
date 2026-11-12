@@ -1,0 +1,27 @@
+# Git ignore for Syed's Image Convertor
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.spec.bak
+
+# Pre-compiled Standalone & Releases (distributed via GitHub Releases)
+Standalone_App/
+Source_Code/
+*.exe
+*.zip
+
+# Editors
+.vscode/
+.idea/
+*.swp
