@@ -16,9 +16,12 @@ PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\output
 OutputBaseFilename=Syeds-Image-Convertor-Setup
-SetupIconFile=C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\app_icon.ico
-Compression=lzma2/ultra64
+SetupIconFile=D:\01. Riyaz\My Apps\Syed's Image Convertor\app_icon.ico
+Compression=lzma2
 SolidCompression=yes
+ArchitecturesAllowed=x64compatible
+ArchitecturesInstallIn64BitMode=x64compatible
+MinVersion=6.1
 WizardStyle=modern
 UninstallDisplayIcon={app}\{#MyAppExeName}
 
@@ -30,13 +33,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "contextmenu"; Description: "Add 'Syed''s Image Convertor' to Windows Explorer Right-Click Menu"; GroupDescription: "Explorer Integration:"; Flags: checkedonce
 
 [Files]
-Source: "C:\Users\anilM\AppData\Local\Programs\antigravity\dist\ImageConverter\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\app_icon.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\app_icon.png"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\install_context_menu.ps1"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\uninstall_context_menu.ps1"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\install_context_menu.bat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Riyaz\.gemini\antigravity\scratch\anywebp-local\uninstall_context_menu.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\01. Riyaz\My Apps\Syed's Image Convertor\Standalone_App\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\app_icon.ico"
